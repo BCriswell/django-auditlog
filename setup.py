@@ -5,13 +5,13 @@ setup(
     version='0.4.3',
     packages=['auditlog', 'auditlog.migrations'],
     package_dir={'': 'src'},
-    url='https://github.com/jjkester/django-auditlog',
+    url='https://github.com/BCriswell/django-auditlog',
     license='MIT',
-    author='Jan-Jelle Kester',
+    author='Brian Criswell',
     description='Audit log app for Django',
     install_requires=[
         'Django>=1.8',
-        'django-jsonfield>=1.0.0',
+        'jsonfield>=2.0.1'
     ],
     zip_safe=False
 )
